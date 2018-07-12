@@ -1,0 +1,43 @@
+crear app.js y hacer los const de express, app, morgan, bodyParser, mongoose.
+
+crear en app.js los app.use de cada uno de estos y metodos que brindan fromas de evitar 
+errores etc y agregar el module.exports = app.
+
+crear el server.js en node modules y se le agrega los const de puerto a utilizar etc.
+
+crear carpeta de routes y las clases de las cuales ocupamos esas routes...
+order.js, products.js
+
+crear en app.js los const de dichas rutas y hacerles el use tambien.
+
+se crea la carpeta modelos y sus modelos.
+
+en las rutas hacemos el const de su modelo en su respectiva ruta para utilizarlos
+luego se procede hacer validaciones...
+
+nos dirigimos a mongodb y creamos nuestra bd y usuario..
+
+se crea en node_modules el nodemon.json y se le da el pw del usuario creado en la bd..
+
+en app le otorgamos el id que nos da mongobd. para hacer la conexion junto con el pw que lo traemos con un const de nodemon.json.
+
+
+////////////
+angular una vez creada la carpeta de angular la movemos a src--- en la terminal dentro del proyecto de angular ejecutamos el ng serve //ubicado en el url:http://localhost:4200/
+
+-----ng g c component/tasks///(ng generate componet component/tasks) //es lo mismo
+-----ng g s services/tasks///(ng generate service services/tasks) //es lo mismo
+
+una vez creado task services hay que ir a app.module.ts i hacer un import
+
+ejemplo: 	import { TaskService } from './services/task.service';
+y un providers
+	providers: [TaskService],
+
+
+creamos en app un Task.ts para modelar nuestro angular
+
+-----npm i bootstrap@next   //para la ultima version
+
+luego vamos a angular-cli.json y en la linea 22 agregamos "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
