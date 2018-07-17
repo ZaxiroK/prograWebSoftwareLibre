@@ -37,7 +37,11 @@ y un providers
 
 creamos en app un Task.ts para modelar nuestro angular
 
------npm i bootstrap@next   //para la ultima version
+-----para agregar boostrap en angular vamos a la pagina principal y de boostrap copiamos el url y lo pegamos en index
 
-luego vamos a angular-cli.json y en la linea 22 agregamos "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+----- una vez que ya creamos los metodos en task de get,post,update, delete, nos dirijimos a task.component.ts para hacer el import, procedemos hacer la instacia en el contructor de task.component.ts
+
+ahora ocupamos importar Task.ts a task.compponent.ts y definir que sera un arreglo tasks: Task[]; y lo incializamos en el contrcutor con this.tasks = tasks
+
+
 

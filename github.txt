@@ -1,3 +1,13 @@
 git 
 
 ---git clone y se pega el url
+
+--- se entre en la carpeta donde esta el repo para subir los archiv
+
+git add .
+
+git commit -am "comentario"
+
+git push
+
+----se ponen los datos de mi cuenta para autorizar los cambios

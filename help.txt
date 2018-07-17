@@ -6,4 +6,5 @@ https://cloud.mongodb.com/v2/5b40fa884e6581409b5c7573#clusters ----------mongodb
 
 mongoDB = password = 87202120wv@
 
-https://www.youtube.com/watch?v=wFK9ANSyYl8       min 14:00 MEAN-API-REST
+https://www.youtube.com/watch?v=wFK9ANSyYl8       min 33:44 MEAN-API-REST
+https://github.com/FaztWeb/crud-mean-angular5
